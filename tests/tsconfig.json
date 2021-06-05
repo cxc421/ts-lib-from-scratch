@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "ts-lib-from-scratch",
+      "path": ".."
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ],
+    "rootDir": ".."
+  },
+  "include": [
+    "."
+  ]
+}

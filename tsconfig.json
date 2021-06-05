@@ -10,6 +10,7 @@
     "declaration": true,
     "stripInternal": true,
     "types": [],
+    "composite": true,
     
     /* Strict Type-Checking Options */
     "strict": true,                                 /* Enable all strict type-checking options. */    
@@ -19,6 +20,7 @@
 
     /* Advanced Options */    
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
+    
   },
   "include": ["src"]
 }
