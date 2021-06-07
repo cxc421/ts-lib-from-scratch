@@ -9,8 +9,8 @@
     "dev": "yarn build --watch --preserveWatchOutput",
     "lint": "eslint src --ext js,ts",
     "test": "jest",
-    "preapi:local": "yarn build",
-    "api:local": "api-extractor run --local"
+    "api:local": "yarn build && api-extractor run --local",
+    "api": "yarn build && api-extractor run && yarn api-documenter markdown -i temp -o docs"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.4",

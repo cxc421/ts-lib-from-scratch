@@ -7,6 +7,6 @@
  *
  * @beta
  */
-export function substract(a: number, b: number): number {
+export function substract(a: number, b = 0): number {
   return a - b;
 }
