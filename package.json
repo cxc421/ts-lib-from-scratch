@@ -8,7 +8,9 @@
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
     "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "test": "jest",
+    "preapi:local": "yarn build",
+    "api:local": "api-extractor run --local"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.4",

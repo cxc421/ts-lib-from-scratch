@@ -8,6 +8,9 @@
 export function avg(a: number, b: number, c: number): number;
 
 // @beta
+export function substract(a: number, b: number): number;
+
+// @beta
 export function sum3(a: number, b: number, c: number): number;
 
 
